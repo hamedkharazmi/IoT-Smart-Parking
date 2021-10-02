@@ -1,0 +1,144 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>smart parking</title>
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="stylesheet" href="style.css"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="./sc.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>
+      <span class="header-subtitile">IoT project</span>
+      <p class="header-title">
+        smart parking
+      </p>
+    </h1>
+  </header>
+
+  <!-- <div id="scoreboard">dsds</div> -->
+
+  <div id="menu-bar">
+    <div id="menu" onclick="onClickMenu()">
+      <div id="bar1" class="bar"></div>
+      <div id="bar2" class="bar"></div>
+      <div id="bar3" class="bar"></div>
+    </div>
+    <ul class="nav" id="nav">
+      <li class="nemoodar navabout"><a>Statistics</a></li>
+      <li><a href="#popupMap" id="map">Map</a></li>
+      <li class="about navabout"><a>About smart parking</a></li>
+      <li><a href="#">Cameras</a></li>
+      
+      
+    </ul>
+  </div>
+  <div class="menu-bg" id="menu-bg"></div>
+
+
+  <div class="co">
+    <div class="glass co_1">
+      <main>
+        <div class="car-line park">
+          <div class="ch1">1</div>
+          <div class="ch2">2</div>
+          <div class="ch3">3</div>
+          <div class="car car-red">
+            <div class="car-front"></div>
+            <div class="car-middle"></div>
+            <div class="car-back"></div>
+          </div>
+          <span class="vacancy passo1"></span>
+          
+          <div class="car car-blue">
+            <div class="car-front"></div>
+            <div class="car-middle"></div>
+            <div class="car-back"></div>
+          </div>
+        </div>
+        <div class="car-line">
+          <div class="car car-silver Animated_car" style="display: none;">
+            <div class="car-front"></div>
+            <div class="car-middle"></div>
+            <div class="car-back"></div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="co_status">
+      <div class="co_2">
+        <div id="pieChart" class="chart"></div>
+        <div class="status">
+          <h1>Parking Status</h1>
+          <p>
+            Total Seats: 3 <br>
+            Available: <span class="free_slot"></span>
+          </p>
+          <br>
+        </div>
+      </div>
+      <br>
+      <div class="gtStyle"><p>Gate: <span class="gateST"></span></p></div>
+    </div>
+  </div>
+
+  <!-- <div class="status"><h1>Parking Status</h1><p>Total Seats: 3 <br>Available: 1</p></div> -->
+  <!-- <div class="status"><h1>Parking Status</h1><p>Total Seats: 3 <br>Available: 0</p></div> -->
+
+  <div class="popup" id="popupMap">
+      <div class="popup-inner">
+        <div style="width: 100%; height:100%;" id="addmap"></div>
+        <a class="popup__close" href="#">X</a>
+      </div>
+  </div>
+
+  
+
+  <div class="nav_t">
+    <ul class="nav__list tr1">
+      <figure >
+        <img src="GIF2.gif" alt="" id="gif2">
+        <figcaption style="padding-right: 40px; padding-top: 40px;">
+          <h1>What is Smart Parking?</h1>
+          <p>Searching for a parking spot has become a daily habit for a lot of people all around the globe. It is usually a time consuming and frustrating process that a lot of citizens have to go through. Next to parking being such a daily pain, it also has a big impact on the pollution of the planet. <br>
+            After naming the various problems that arise from looking for parking spots, only one question remains: How can this problem be fixed? The answer is Smart Parking, but what is it? <br> </p>
+        </figcaption>
+      </figure>
+      <figure >
+        <img src="GIF4.gif" alt="" id="gif4">
+        <figcaption style="display: block; padding-left: 300px;">
+          <h1>The Definition of Smart Parking</h1>
+          <p>In a nutshell, Smart Parking is a parking solution that can include in-ground Smart Parking sensors, cameras, or counting sensors. These devices are usually embedded into parking spots or positioned next to them to detect whether parking bays are free or occupied.  This happens through real-time data collection. The data is then transmitted to a smart parking mobile application or website, which communicates the availability to its users. Some companies also offer other in-app information, such as parking prices and locations. This gives you the possibility to explore every parking option available to you. <br>
+          As a result of using Smart Parking, people who are looking to find a parking spot will find it in the most efficient way possible and companies or municipalities can optimize their parking territories. It also makes cities more livable, safer, and less congested. </p>
+        </figcaption>
+      </figure>
+
+      <figure >
+        <img src="GIF3.gif" alt="" id="gif3">
+        <figcaption style="padding-right: 40px; padding-top: 10px;">
+          <p> <strong>Advantages of Smart Parking for Drivers:</strong> Optimizing the driving experience</p>
+          <p> <strong>Advantages for Cities:</strong> Less pollution - The space of a municipality will be utilized more efficiently - Safety - Real-time parking analytics for cities</p>
+          <p>In general, Smart Parking solutions, such as sensors, give municipalities and companies the opportunity to make parking a more fluid and efficient process. Furthermore, it saves people a great amount of time, money, and reduces the frustration that a person might have when wanting to find a parking spot.</p>
+        </figcaption>
+      </figure>
+      <figure>
+      <a class="nav__close" href="">X</a>
+    </ul>
+  </div>
+
+  <div class="nav_t">
+    <ul class="nav__list tr2">
+      <div class="wrapper_container">
+        <div id="container-chart" style="width:50%; height:400px;"></div>
+      </div>
+      <a class="nav__close" href="">X</a>
+    </ul>
+  </div>
+
+  
+</body>
+</html>
