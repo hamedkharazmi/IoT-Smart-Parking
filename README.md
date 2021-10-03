@@ -19,3 +19,10 @@ used.
   <img src="/Full2Free.gif" width="48%" />
   <img src="/Free2Full.gif" width="48%" /> 
 </p>
+
+
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![WebPage image](https://github.com/hamedkharazmi/IoT-Smart-Parking/blob/master//Full2Free.gif)  |  ![WebPage image](https://github.com/hamedkharazmi/IoT-Smart-Parking/blob/master//Full2Free.gif)
+
+![WebPage image](https://github.com/hamedkharazmi/IoT-Smart-Parking/blob/master//Full2Free.gif)
