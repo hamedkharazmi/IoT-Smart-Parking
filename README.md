@@ -15,18 +15,21 @@ In this project:
 used.
 
 
-1                          |2
+You can see different parts of the web page here:
+
+
+Parking the car            |Getting out of the park
 :-------------------------:|:-------------------------:
 ![WebPage image](https://github.com/hamedkharazmi/IoT-Smart-Parking/blob/master//Free2Full.gif)  |  ![WebPage image](https://github.com/hamedkharazmi/IoT-Smart-Parking/blob/master//Full2Free.gif)
 
-3                          |4
+free slot                  |full slot
 :-------------------------:|:-------------------------:
 ![WebPage image](https://github.com/hamedkharazmi/IoT-Smart-Parking/blob/master//free.png)  |  ![WebPage image](https://github.com/hamedkharazmi/IoT-Smart-Parking/blob/master//full.png)
 
-5                          |6
+menu                       |statistics
 :-------------------------:|:-------------------------:
 ![WebPage image](https://github.com/hamedkharazmi/IoT-Smart-Parking/blob/master//menu.png)  |  ![WebPage image](https://github.com/hamedkharazmi/IoT-Smart-Parking/blob/master//statistics.png)
 
-7                          |8
+map                        | about
 :-------------------------:|:-------------------------:
 ![WebPage image](https://github.com/hamedkharazmi/IoT-Smart-Parking/blob/master//map.png)  |  ![WebPage image](https://github.com/hamedkharazmi/IoT-Smart-Parking/blob/master//about.png)
