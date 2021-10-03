@@ -15,14 +15,6 @@ In this project:
 used.
 
 
-<p float="center">
-  <img src="/Full2Free.gif" width="48%" />
-  <img src="/Free2Full.gif" width="48%" /> 
-</p>
-
-
-Solarized dark             |  Solarized Ocean
+1                          |2
 :-------------------------:|:-------------------------:
-![WebPage image](https://github.com/hamedkharazmi/IoT-Smart-Parking/blob/master//Full2Free.gif)  |  ![WebPage image](https://github.com/hamedkharazmi/IoT-Smart-Parking/blob/master//Full2Free.gif)
-
-![WebPage image](https://github.com/hamedkharazmi/IoT-Smart-Parking/blob/master//Full2Free.gif)
+![WebPage image](https://github.com/hamedkharazmi/IoT-Smart-Parking/blob/master//Free2Full.gif)  |  ![WebPage image](https://github.com/hamedkharazmi/IoT-Smart-Parking/blob/master//Full2Free.gif)
