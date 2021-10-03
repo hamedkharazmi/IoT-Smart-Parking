@@ -13,3 +13,5 @@ In this project:
   * Long Polling method in WebPage (Long polling is a method that server applications use to hold a client connection until information becomes available)
 
 used.
+
+![WebPage image](https://github.com/hamedkharazmi/IoT-Smart-Parking/blob/master/Free2Full.GIF?raw=true)
