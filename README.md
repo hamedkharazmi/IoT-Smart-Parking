@@ -17,6 +17,6 @@ used.
 ![WebPage image](https://github.com/hamedkharazmi/IoT-Smart-Parking/blob/master/Free2Full.gif) ![WebPage image](https://github.com/hamedkharazmi/IoT-Smart-Parking/blob/master/Full2Free.gif)
 
 <p float="left">
-  <img src="/Full2Free.gif" width="300" />
-  <img src="/Free2Full.gif" width="300" /> 
+  <img src="/Full2Free.gif" width="50%" />
+  <img src="/Free2Full.gif" width="50%" /> 
 </p>
