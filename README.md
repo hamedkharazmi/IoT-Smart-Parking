@@ -14,4 +14,4 @@ In this project:
 
 used.
 
-![WebPage image](https://github.com/hamedkharazmi/IoT-Smart-Parking/blob/master/Free2Full.gif)
+![WebPage image](https://github.com/hamedkharazmi/IoT-Smart-Parking/blob/master/Free2Full.gif) ![WebPage image](https://github.com/hamedkharazmi/IoT-Smart-Parking/blob/master/Full2Free.gif)
