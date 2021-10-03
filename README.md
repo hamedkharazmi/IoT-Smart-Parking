@@ -10,7 +10,7 @@ In this project:
   * MQTT and HTTP protocols
   * Mysql Database
   * Graphical interface (WebPage) using HTML, CSS, JavaScript and PHP
-  * Long Polling method in WebPage (Long polling is a method that server applications use to hold a client connection until information becomes available)
+  * **Long Polling method in WebPage** (Long polling is a method that server applications use to hold a client connection until information becomes available)
 
 used.
 
