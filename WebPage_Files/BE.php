@@ -1,8 +1,8 @@
 <?php
-// (1) INIT
+
 set_time_limit(0); // Set the appropriate time limit
 ignore_user_abort(false); // Stop when polling breaks
-// ! CHANGE THESE TO YOUR OWN !
+
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'fraqjop_iot');
 define('DB_CHARSET', 'utf8');
